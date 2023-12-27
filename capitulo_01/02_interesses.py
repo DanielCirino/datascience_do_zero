@@ -1,7 +1,9 @@
 from collections import Counter, defaultdict
 
-from fabrica_dados import interesses_usuarios, usuarios
+from fabrica_dados import gerar_lista_interesses, gerar_lista_usuarios
 
+usuarios = gerar_lista_usuarios()
+interesses_usuarios = gerar_lista_interesses(usuarios)
 
 def usuarios_que_se_interessam_por(tema):
     return [id_usuario

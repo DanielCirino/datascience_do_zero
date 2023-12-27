@@ -1,6 +1,8 @@
 from collections import defaultdict
 
-from fabrica_dados import salarios
+from fabrica_dados import gerar_lista_salarios
+
+salarios = gerar_lista_salarios()
 
 
 def faixa_experiencia(anos):

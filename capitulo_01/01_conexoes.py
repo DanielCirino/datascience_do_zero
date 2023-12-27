@@ -1,8 +1,10 @@
 from collections import Counter
 
-from fabrica_dados import (usuarios,
-                           conexoes)
+from fabrica_dados import (gerar_lista_usuarios,
+                           gerar_lista_conexoes)
 
+usuarios = gerar_lista_usuarios()
+conexoes = gerar_lista_conexoes(usuarios)
 
 
 for i, j in conexoes:

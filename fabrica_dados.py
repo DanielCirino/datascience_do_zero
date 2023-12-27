@@ -94,7 +94,4 @@ def gerar_lista_salarios(tamanho=1000):
     return lista
 
 
-# usuarios = gerar_lista_usuarios()
-# conexoes = gerar_lista_conexoes(usuarios)
-# interesses_usuarios = gerar_lista_interesses(usuarios)
-salarios=gerar_lista_salarios()
+
